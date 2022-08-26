@@ -34,3 +34,7 @@ b=abc
 #when u use double quotes ?? when your input having any special characters, then you need to enclose in QUOTES.
 echo $a # $a is printing the value of a
 echo $b
+
+# date 
+DATE_COMMAND=$(date +%F)
+echo "good morning today date is $DATE_COMMAND"
